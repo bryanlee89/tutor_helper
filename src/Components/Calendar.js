@@ -83,14 +83,16 @@ class MyCalendar extends React.Component {
       <div className="calendar">
         <DragAndDropCalendar
         selectable
+        resizable
+        views={['month', 'week', 'day']}
+        formats={formats}
         events = {this.state.events}
         startAccessor="start"
         endAccessor="end"
         onEventDrop = {this.moveEvent}
-        resizable
         onEventResize = {this.resizeEvent}
         defaultView="month"
-        defaultDate={new Date (2018, 1, 1)} />
+        />
       </div>
     )
   }

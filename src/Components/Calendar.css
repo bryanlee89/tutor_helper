@@ -13,8 +13,8 @@
 .rbc-toolbar-label {
     font-size: 16px;
 }
-.rbc-btn-group {
-
+.rbc-event {
+    background-color: #550000 !important;
 }
 .rbc-btn-group > button:first-child:not(:last-child) {
     background-color: #E46F5D;
