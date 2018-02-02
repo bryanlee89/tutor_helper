@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.calendar {
+    height: 95vh;
+    margin: 10px 50px 0 50px;
+}
+.rbc-month-view {
+    border: none !important;
+}
+.rbc-toolbar-label {
+    font-size: 16px;
+}
+.rbc-btn-group {
+
+}
+.rbc-btn-group > button:first-child:not(:last-child) {
+    background-color: #E46F5D;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+}
+.rbc-btn-group > button:last-child {
+    background-color: #E46F5D;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+}
+.rbc-btn-group > button:not(:first-child):not(:last-child) {
+    background-color: #E46F5D;
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 14px;
+}
+.rbc-header {
+    background-color: #F2B7AF;
+    color: #242424;
+    padding: 25px !important;
+}
+.rbc-date-cell {
+    color: #E46F5D;
+}
+.rbc-off-range-bg {
+    /* background-color: #b4b4b4 !important; */
+}
+.rbc-day-bg {
+    border: none !important;
+}
+.rbc-today {
+    background-color: #faddd1 !important;
+}
