@@ -1,0 +1,22 @@
+{
+  "name": "tutor_helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanlee89/tutor_helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanlee89/tutor_helper/issues"
+  },
+  "homepage": "https://github.com/bryanlee89/tutor_helper#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
